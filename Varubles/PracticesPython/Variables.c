@@ -2,24 +2,24 @@
 
 int main(void) {
     char name[]="Lindsey";
-    printf("%s", name);
+    printf("%s\n", name);
     char smallNumber[]="6";
-    printf("%s", smallNumber);
+    printf("%s\n", smallNumber);
     char bigNumber[]="795";
-    printf("%s", bigNumber);
+    printf("%s\n", bigNumber);
     char breakfast[]="Bacon and Eggs";
-    printf("%s", breakfast);
+    printf("%s\n", breakfast);
     char favoriteColor[]="Blue";
-    printf("%s", favoriteColor);
+    printf("%s\n", favoriteColor);
     char school[]="UCAS";
-    printf("%s", school);
+    printf("%s\n", school);
     char year[]="2005";
-    printf("%s", year);
+    printf("%s\n", year);
     char eyecolor[]="Dark Brown";
-    printf("%s", eyecolor);
+    printf("%s\n", eyecolor);
     char myAge[]="14";
-    printf("%s", myAge);
+    printf("%s\n", myAge);
     char favoriteSubject[]="English";
-    printf("%s", favoriteSubject);
+    printf("%s\n", favoriteSubject);
     return 0;
 } 
