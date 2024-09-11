@@ -1,4 +1,4 @@
-#include<stdio.h>.h>
+#include <stdio.h>.h>
 
 int main(void) {
     char name[]="Lindsey";
