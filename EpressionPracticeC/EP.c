@@ -1,21 +1,23 @@
 #include <stdio.h>
 
-int main(void)
-{
-    int a, b, c, d, e;
-    a = 2;
-    b = 3;
-    c = 4;
-    d = 5;
-    e = 6;
-    printf("%d", (int)7 - (int)24/(int)8 * (int)c +(int)e);
-    printf("%d", (int)18 / (int)b -(int)7 + (int)2 *(int)d);
-    printf("%d", (int)e * (int)c /(int)12 + (int)72 / (int)8 - (int)9);
-    printf("%d", (int)(17 - (int)e / (int)a) + (int)c +(int)b);
-    printf("%d", (int)-2 * (int)(1 * (int)c - (int)a / (int)a) + (int)(e + (int)a - (int)d));
-    printf("%d", (int)-1 * (int)((3 -(int)c * (int)7) / (int)d) - (int)(a * (int)24 / (int)e));
-    printf("%d", (int) (c * (int)d ^ (int)a / (int)15) - (int) (d - (int) a ^ (int));
-    printf("%d", (int) (1 ^ (int)c * (int)a ^ (int)a + (int)c ^ (int)c) / (int)a ^ (int)d / (int)c);
-    printf("%d", (int)(22 / (int)a - (float)2.5) ^ (int)a + (int)(c - (int)e / (int)e) ^ (int)a);
+int main(void){
+     int a = 7-24/8*4+6;
+    printf("%d\n",a);
+    int b = 18/3-7+2*5;
+    printf("%d\n",b);
+    int c = 6*4/12+72/8-9;
+    printf("%d\n",c);
+    int d = ((17-6/2)+4*3);
+    printf("%d\n",d);
+    int e = -2*(1*4-2/2)+(6+2-3);
+    printf("%d\n",e);
+    int f = -1*((3-4*7)/5)-2*24/6;
+    printf("%d\n",f);
+    int g = (3*pow(5,2)/15)-(5-pow(2,2));
+    printf("%d\n",g);
+    int h = (pow(1,4)*pow(2,2)+pow(3,3))-(pow(2,5)/4);
+    printf("%d\n",h);
+    int i = (pow(22/2-2*5,2)+pow(4-6/6,2));
+    printf("%d\n",i);
     return 0;
 }
