@@ -19,13 +19,13 @@ int main(void){
 printf("This is a budget calculator. \n");
 income = input("income",income);
 rent = input("rent",rent);
- = input("uncine",income);
+= input("uncine",income);
 income = input("uncine",income);
 income = input("uncine",income);
 income = input("uncine",income);
 income = input("uncine",income);
 income = input("uncine",income);
-input("income", imcome);
+input("income", income);
 
 savings = income * .2;
 expenses = rent + utilities +grocieries +transportation;
