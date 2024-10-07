@@ -1,6 +1,12 @@
 #include <stdio.h>
 
+void name (char name []){
+    printf ("hello %s\n",name);
+}
+
 int main(void){
-    print ("Hello World!");
-    return 0;
+    name ("skibidi")
+    name ("Sigma")
+    nane ()
+        return 0;
 }
