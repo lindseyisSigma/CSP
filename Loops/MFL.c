@@ -1,5 +1,5 @@
 #include <stdio.h>
-char sibs[3][20]= {" ana! ", " elsa! ", " olaf! "};
+char sibs[3][20]= {"Amanda!", "Emily!", "Kaylee!"};
 int i;
 int main(){
     while(i<3){
